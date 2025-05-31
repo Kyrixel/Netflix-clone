@@ -1,0 +1,97 @@
+
+.extra-cards{
+    margin-left: 6%;
+
+    overflow: hidden;
+    margin-right: 10%;
+    padding-top: 0;
+}
+
+.testing{
+    overflow:visible;
+}
+
+.home-content{
+    top:0px;
+    position: relative;
+
+
+    
+}
+
+.home-content .banner-img{
+    width: 100%;
+
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+    mask-image: linear-gradient(to top, transparent, black 100%);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 100%);
+}
+
+.banner-text{
+    position: absolute;
+    width: 90%;
+    padding-left: 6%;
+    bottom: 0;
+
+
+}
+
+
+.banner-text .banner-text-img{
+    width: 40%;
+
+}
+
+
+.banner-text p{
+    max-width: 450px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.banner-buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+
+.banner-buttons .button img{
+    width: 25px;
+
+}
+
+.banner-buttons .button{
+    border: 0;
+    outline: 0;
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.banner-buttons .button.dark-button{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.banner-buttons .button:hover{
+    background: #ffffffbf;
+    transition: ease;
+}
+
+.banner-buttons .button.dark-button:hover{
+    background: #6d6d6e66;
+}
